@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #e8ebee;
+  margin: 0 auto;
+}
+
+ h1 {
+  width: 85%;
+  margin: 0 17px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 15px  16px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.wrapper-one {
+  padding: 20px;
+  width: 33%;
+  height: 33%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  background-color: #e8ebee;
+}
+
+.encoded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 33%;
+  height: 33%;
+  background-color: #e9ebee;
+  border-radius: 10px;
+
+
+
+}
+
+#encoded-chunks {
+  box-shadow: 1px 1px 1px 1px #636161;
+  width: 90%;
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  align-items: center;
+  padding: 10px;
+  color: #474747;
+  margin: 0 10px;
+}
+
+#rec-for-encoded {
+  width: 90%;
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  align-items: center;
+  padding: 10px;
+  color: #474747;
+  margin: 0 10px;
+  box-shadow: 1px 1px 1px 1px #3c3b3b;
+}
+
+
+#input {
+  box-shadow: 1px 1px 1px 1px #656464;
+  text-align: center;
+  margin: 0 10px;
+  width: 90%;
+  height: 120px;
+  padding-top: 16px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  align-items: center;
+  background-color: #f6f2eb;
+  padding: 10px;
+  color: #474747;
+}
+
+#normalize-rec {
+  box-shadow: 1px 1px 1px 1px #5f5e5e;
+  width: 90%;
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  align-items: center;
+  padding: 10px;
+  color: #474747;
+  margin: 0 10px;
+}
+
+#execute-task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+   width: 20%;
+  border: 2px solid #000;
+  border-radius: 6px;
+  align-items: center;
+  padding: 26px;
+  /* background-color: #228b22; */
+  color: #474747;
+}
