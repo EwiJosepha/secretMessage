@@ -28,14 +28,15 @@ body {
   margin: 0 15px  16px;
   margin-bottom: 10px;
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
 .wrapper-one {
   padding: 20px;
-  width: 33%;
+  width: 50%;
   height: 33%;
-  border-radius: 10px;
+  border: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,10 +49,10 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-  width: 33%;
+  width: 45%;
   height: 33%;
   background-color: #e9ebee;
-  border-radius: 10px;
+  border: none;
 
 
 
@@ -59,9 +60,10 @@ body {
 
 #encoded-chunks {
   box-shadow: 1px 1px 1px 1px #636161;
-  width: 90%;
+  width: 60%;
   height: 120px;
-  border: 2px solid #000;
+  border: none;
+  box-shadow: 1px 2px 1px 2px;
   border-radius: 6px;
   align-items: center;
   padding: 10px;
@@ -70,9 +72,9 @@ body {
 }
 
 #rec-for-encoded {
-  width: 90%;
+  width: 60%;
   height: 120px;
-  border: 2px solid #000;
+  border: none;
   border-radius: 6px;
   align-items: center;
   padding: 10px;
@@ -90,7 +92,7 @@ body {
   height: 120px;
   padding-top: 16px;
   font-size: 16px;
-  border: 2px solid #000;
+  border: none;
   border-radius: 6px;
   align-items: center;
   background-color: #f6f2eb;
@@ -99,10 +101,12 @@ body {
 }
 
 #normalize-rec {
+  display: flex;
   box-shadow: 1px 1px 1px 1px #5f5e5e;
-  width: 90%;
+  width: 60%;
   height: 120px;
-  border: 2px solid #000;
+  border: none;
+  flex-wrap: wrap;
   border-radius: 6px;
   align-items: center;
   padding: 10px;
@@ -117,7 +121,7 @@ body {
   align-items: center;
   margin: 0 auto;
    width: 20%;
-  border: 2px solid #000;
+  border: none;
   border-radius: 6px;
   align-items: center;
   padding: 26px;
